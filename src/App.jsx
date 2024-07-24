@@ -5,8 +5,15 @@ import hero_image from './assets/hero_img.jpg'
 import './App.css'
 import BottomNav from './Bottomnav'
 import Footer from './footer'
+import { FaWhatsapp } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
 function App() {
   const [count, setCount] = useState(0)
+  const phoneNumber = "918445659152";
+  // Default message (URL encoded)
+  const defaultMessage = encodeURIComponent("Hello there, I would like to ask you some question about Cricket Prediction.");
   const username = "tips_insight";
   function handleclick() {
     // Phone number with country code
@@ -49,10 +56,16 @@ function App() {
     {/* <div className='md:text-4xl md:my-8 md:mx-20 font-black text-3xl my-4 mt-8 mx-4'>Welcome to Tips Insight. </div> */}
     <div className='md:text-xl font-bold text-black md:mt-4 md:mx-20 mx-4 text-xs'>Deciphering the world of Cricket prediction for you!</div>
 
+    <div className="flex my-2 justify-center gap-12  md:p-4 pt-4 pb-2 md:basis-4/12">
+<a href={`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${defaultMessage}`}><FaWhatsapp className="text-2xl md:text-3xl text-black cursor-pointer"/></a>
+<a href={`https://t.me/${username}`}><FaTelegram className="text-2xl md:text-3xl text-black cursor-pointer"/></a>
+<a href="https://www.instagram.com/tipsinsight?igsh=bzltMXE0c2V1d293"><FaInstagram className="text-2xl md:text-3xl text-black cursor-pointer"/></a>
 
 
+</div>
 
-     <div className='bottom-nav-parent   flex justify-center'>
+
+     <div className='bottom-nav-parent flex justify-center'>
 <div className='bottom-nav w-[80%] mb-3 rounded-full border-[0px] bg-gradient-to-r00 bg-white from-customRed to-customBrown'>
 {/* <BottomNav/> */}
 <Footer/>
