@@ -37,7 +37,7 @@ function App() {
       Want to say something to us? Here you go. We are waiting for your message.
     </p>
     {/* <div className='md:text-4xl md:my-8 md:mx-20 font-black text-3xl my-4 mt-8 mx-4'>Welcome to Tips Insight. </div> */}
-    <div className='md:text-xl font-bold md:mt-4 md:mx-20 mx-4 text-xs'>Deciphering the world of Cricket prediction for you!</div>
+    <div className='md:text-xl font-bold text-black md:mt-4 md:mx-20 mx-4 text-xs'>Deciphering the world of Cricket prediction for you!</div>
 
 
 
