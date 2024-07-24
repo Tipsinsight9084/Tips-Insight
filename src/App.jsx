@@ -44,11 +44,11 @@ function App() {
      <div className='text-black mt-6 text-2xl font-bold'>
     India's Most <span className='text-customRed font-extrabold'>Reliable</span> Predictions
   </div>
-     <a href={`https://t.me/${username}`}>
+  
             <button onClick={handleclick}className="my-4 md:my-8 font-mont font-semibold text-base md:text-xl rounded-3xl px-4 md:px-8 py-2 md:py-2 text-white bg-gradient-to-r from-customRed to-customBrown w-full md:w-auto hover:transform hover:scale-110 transition duration-300 ease-in-out">
   Message us on whatsapp
 </button>
-</a>
+
 
 <p className="mb-8 lg:mb-16 font-semibold text-center text-gray-500 dark:text-gray-400 sm:text-xl">
       Want to say something to us? Here you go. We are waiting for your message.
