@@ -24,9 +24,19 @@ function App() {
     <div className='mt-4 animate-combined bg-gradient-to-r from-customRed via-customBrown to-orange-500 bg-clip-text text-transparent text-2xl font-black mb-0 py-0'>
   { "Welcome to Tipsinsight" }
   </div>
+  <div className='text-black font-bold text-2xl'>
+  💲
+ Mauka hai <span className='text-green-500'>Paisa</span> kamane ka 💲
+
+  </div>
+
+  
      <div className='hero_img'>
       <img className='hero_img' src={hero_image} alt="" height onClick={handleclick}/>
      </div>
+     <div className='text-black mt-6 text-2xl font-bold'>
+    India's Most <span className='text-customRed font-extrabold'>Reliable</span> Predictions
+  </div>
      <a href={`https://t.me/${username}`}>
             <button className="my-4 md:my-8 font-mont font-semibold text-base md:text-xl rounded-3xl px-4 md:px-8 py-2 md:py-2 text-white bg-gradient-to-r from-customRed to-customBrown w-full md:w-auto hover:transform hover:scale-110 transition duration-300 ease-in-out">
   Join us on telegram
