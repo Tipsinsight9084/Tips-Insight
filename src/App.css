@@ -9,6 +9,10 @@
   text-align: center;
 }
 
+body{
+  background-color: white;
+}
+
 .hero_img{
     /* background-color: red; */
     width: 100vw;  /* 100% of the viewport width */
