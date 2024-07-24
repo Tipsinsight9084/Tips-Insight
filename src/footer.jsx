@@ -11,7 +11,7 @@ export default function Footer(){
   <img src={Logo} className='w-32 md:w-44 m-auto'>
   </img>
     {/* </div> */}
-    <p className='text-center'><p className="font-bold md:text-3xl text-center">Tips Insight</p><br/>Providing reliable prediction.</p>
+    <p className='text-center'><p className="font-bold md:text-3xl text-center text-black">Tips Insight</p><br/>Providing reliable prediction.</p>
   </aside> 
   {/* <nav className=' basis-1/6 flex flex-col'>
     <h6 className="footer-title font-semibold">Services</h6> 
@@ -22,7 +22,7 @@ export default function Footer(){
   </nav>  */}
   <div className='flex flex-row items-center justify-around w-full'>
   <nav className='basis-1/4 flex flex-col md:my-0 my-4'>
-    <h6 className="footer-title font-semibold">Tips Insight Company</h6> 
+    <h6 className="footer-title font-semibold text-black">Tips Insight Company</h6> 
     {/* <a className="link hover:link">About us</a>
     <a className="link link-hover">Contact</a>
     <a className="link link-hover">Jobs</a>
