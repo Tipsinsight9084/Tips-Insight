@@ -35,7 +35,7 @@ const bottomNav = () => {
         <div className='items-center my-auto align-center'>
         <RiWhatsappFill  className=" text-[#075E54] md:text-black md:hover:text-customRed cursor-pointer" onClick={redirectToWhatsApp} style={{ fontSize: 'clamp(25px, 5vw, 40px)' }} />
         </div>
-        <button className="hover:drop-shadow-2xl hover:cursor-pointer cross-icon w-[10%] font-bold text-black mx-2 text-customRed md:text-black md:hover:text-customRed" onClick={handleHide}>X</button>
+        <button className="hover:drop-shadow-2xl hover:cursor-pointer cross-icon w-[10%] font-bold  mx-2 text-customRed md:text-black md:hover:text-customRed" onClick={handleHide}>X</button>
       </div>
     )}
   </>

@@ -23,17 +23,17 @@ export default function Footer(){
   <div className='flex flex-row items-center justify-around w-full'>
   <nav className='basis-1/4 flex flex-col md:my-0 my-4'>
     <h6 className="footer-title font-semibold">Tips Insight Company</h6> 
-    <a className="link hover:link">About us</a>
+    {/* <a className="link hover:link">About us</a>
     <a className="link link-hover">Contact</a>
     <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
+    <a className="link link-hover">Press kit</a> */}
   </nav> 
-  <nav  className='basis-1/4 flex flex-col md:my-0 my-4'>
+  {/* <nav  className='basis-1/4 flex flex-col md:my-0 my-4'>
     <h6 className="footer-title font-semibold">Legal</h6> 
     <a className="link link-hover">Terms of use</a>
     <a className="link link-hover">Privacy policy</a>
     <a className="link link-hover">Cookie policy</a>
-  </nav>
+  </nav> */}
   </div>
 
   </footer>
