@@ -45,8 +45,8 @@ function App() {
     India's Most <span className='text-customRed font-extrabold'>Reliable</span> Predictions
   </div>
      <a href={`https://t.me/${username}`}>
-            <button className="my-4 md:my-8 font-mont font-semibold text-base md:text-xl rounded-3xl px-4 md:px-8 py-2 md:py-2 text-white bg-gradient-to-r from-customRed to-customBrown w-full md:w-auto hover:transform hover:scale-110 transition duration-300 ease-in-out">
-  Join us on telegram
+            <button onClick={handleclick}className="my-4 md:my-8 font-mont font-semibold text-base md:text-xl rounded-3xl px-4 md:px-8 py-2 md:py-2 text-white bg-gradient-to-r from-customRed to-customBrown w-full md:w-auto hover:transform hover:scale-110 transition duration-300 ease-in-out">
+  Message us on whatsapp
 </button>
 </a>
 
