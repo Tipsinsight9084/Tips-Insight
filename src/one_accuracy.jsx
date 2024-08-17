@@ -6,7 +6,7 @@ export default function Accuracy(props){
         // Phone number with country code
         const phoneNumber = "918445659152";
         // Default message (URL encoded)
-        const defaultMessage = encodeURIComponent(`Hello there, I would like to talk to you about the package of ${League} ${Year}.`);
+        const defaultMessage = encodeURIComponent(`Hello there, I just saw your website and I am intresting in buying cricket prediction tips`);
         // Construct WhatsApp URL
         const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${defaultMessage}`;
         // Redirect to WhatsApp
