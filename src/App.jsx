@@ -9,6 +9,8 @@ import Footer from './footer'
 import { FaWhatsapp } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import Prediction from './predictions'
+import Previous_accuracy from './previous_accuracy.'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -37,7 +39,10 @@ function App() {
  Mauka hai <span className='text-green-500'>Paisa</span> kamane ka 💲
 
   </div>
-  <FinalCarousel/>
+  {/* <FinalCarousel/> */}
+  <Prediction/>
+  <Previous_accuracy/>
+
 
   
      <div className='hero_img'>
