@@ -2,6 +2,8 @@ import React from "react";
 
 export default function Prediction(){
 
+    let btn_heading = "Get Predictons"
+    
 
     function redirectToWhatsApp() {
         // Phone number with country code
@@ -17,7 +19,7 @@ export default function Prediction(){
 // className=" mb-4 w-11/12 md:w-4/5 lg:w-4/5 xl:w-1/2 mx-auto font-mont"
   return(
     <>
-    <div className="mb-8 mt-8 flex flex-column justify-center mx-4">
+    {/* <div className="mb-8 mt-8 flex flex-column justify-center mx-4"> */}
     
     <div className="font-mont bg-black flex flex-col items-center justify-center">
     <div className="font-mont text-white items-center text-2xl mt-8 mx-2 md:text-3xl md:my-8 font-bold" >
@@ -31,15 +33,15 @@ export default function Prediction(){
         </div>
         <div className=""> 
       
-       <button onClick={redirectToWhatsApp} className="my-4 md:my-8 font-mont font-semibold text-base md:text-xl rounded-3xl px-4 md:px-8 py-2 md:py-2 text-white bg-gradient-to-r from-customRed to-customBrown w-full md:w-auto hover:transform hover:scale-110 transition duration-300 ease-in-out">
-Get predictions
+       <button onClick={redirectToWhatsApp} className="my-4 md:my-8 font-mont font-semibold text-base md:text-xl rounded-3xl px-8 md:px-8 py-2 md:py-2 text-white bg-gradient-to-r from-customRed to-customBrown w-full md:w-auto hover:transform hover:scale-110 transition duration-300 ease-in-out">
+{btn_heading}
 </button>
 
 
 
 </div>
        </div>
-      </div>
+     
       </>
   )
 

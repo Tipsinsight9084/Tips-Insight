@@ -11,6 +11,8 @@ import { FaTelegram } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import Prediction from './predictions'
 import Previous_accuracy from './previous_accuracy.'
+import Screenshots from './previous_results'
+import Top_head from './Top_head'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,6 +33,8 @@ function App() {
 
   return (
     <>
+    <Top_head/>
+   
     <div className='mt-4 animate-combined bg-gradient-to-r from-customRed via-customBrown to-orange-500 bg-clip-text text-transparent text-2xl font-black mb-0 py-0'>
   { "Welcome to Tipsinsight" }
   </div>
@@ -39,15 +43,17 @@ function App() {
  Mauka hai <span className='text-green-500'>Paisa</span> kamane ka 💲
 
   </div>
+  <div className='hero_img'>
+      <img className='hero_img' src={hero_image} alt="" height onClick={handleclick}/>
+     </div>
   {/* <FinalCarousel/> */}
   <Prediction/>
   <Previous_accuracy/>
+  <Screenshots/>
 
 
   
-     <div className='hero_img'>
-      <img className='hero_img' src={hero_image} alt="" height onClick={handleclick}/>
-     </div>
+     
      <div className='text-black mt-6 text-2xl font-bold'>
     India's Most <span className='text-customRed font-extrabold'>Reliable</span> Predictions
   </div>
