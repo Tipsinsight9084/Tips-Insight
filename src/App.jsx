@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import hero_image from './assets/hero_img.jpg'
+import hero_image from './assets/hero.jpg'
 import './App.css'
 import BottomNav from './Bottomnav'
 import FinalCarousel from './carosoul'
@@ -35,14 +35,14 @@ function App() {
     <>
     <Top_head/>
    
-    <div className='mt-4 animate-combined bg-gradient-to-r from-customRed via-customBrown to-orange-500 bg-clip-text text-transparent text-2xl font-black mb-0 py-0'>
+    {/* <div className='mt-4 animate-combined bg-gradient-to-r from-customRed via-customBrown to-orange-500 bg-clip-text text-transparent text-2xl font-black mb-0 py-0'>
   { "Welcome to Tipsinsight" }
   </div>
   <div className='text-black font-bold text-2xl'>
   💲
  Mauka hai <span className='text-green-500'>Paisa</span> kamane ka 💲
 
-  </div>
+  </div> */}
   <div className='hero_img'>
       <img className='hero_img' src={hero_image} alt="" height onClick={handleclick}/>
      </div>
