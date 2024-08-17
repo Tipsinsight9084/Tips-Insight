@@ -51,7 +51,7 @@ const FinalCarousel = () => {
 
         <div
         style= {{ backgroundImage: `url(${slides[currentIndex].url})`}}
-        className=' w-full md:h-[80vh] h-full rounded-2xl bg-center bg-cover duration-500'></div>
+        className=' w-auto md:h-[80vh] h-full rounded-2xl bg-center bg-cover duration-500'></div>
      
      <div className=' group-hover:block absolute top-[35%] md:top-[50%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2 b-black/20 text-white cursor-pointer'>
 
