@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import hero_image from './assets/hero_img.jpg'
 import './App.css'
 import BottomNav from './Bottomnav'
+import FinalCarousel from './carosoul'
 import Footer from './footer'
 import { FaWhatsapp } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
@@ -36,6 +37,7 @@ function App() {
  Mauka hai <span className='text-green-500'>Paisa</span> kamane ka 💲
 
   </div>
+  <FinalCarousel/>
 
   
      <div className='hero_img'>
